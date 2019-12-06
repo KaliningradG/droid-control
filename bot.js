@@ -1,15 +1,12 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+import discord
+from discord.ext import commands
 
-client.on('ready', () => {
-    console.log('I am ready!');
-});
+client = discord.Client()
+client = commands.Bot(command_prefix = '!')
+client.remove_command('help')
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
+@client.command()
+async def test(ctx):
+    await ctx.send("This is a test!")
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
+client.run("YOU-TOKEN-BOT")
