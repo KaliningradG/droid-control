@@ -2,9 +2,9 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "OOM-command-battle-droid",
+  "main": "OOM-command-battle-droid.py",
   "scripts": {
-    "start": "node bot.js"
+    "start": "OOM-command-battle-droid.py"
   },
   "dependencies": {
     "discord.js": "11.1.0",
