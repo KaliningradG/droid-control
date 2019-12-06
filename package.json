@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "bot.js", OOM-command-battle-droid.py
+  "main": "bot.js", oom-command-battle-droid.py
   "scripts": {
     "start": "node bot.js"
   },
