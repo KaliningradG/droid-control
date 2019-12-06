@@ -1,1 +1,1 @@
-worker: node bot.js OOM-command-battle-droid.py
+worker: node bot.js
